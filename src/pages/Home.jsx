@@ -20,7 +20,7 @@ const Home = () => {
        <button className="flex items-center btn-primary  mt-5 mb-5">
           <span>Explore Now</span><span className="bg-white rounded-full w-[26px] ml-[5px]"><MoveRight className="text-black w-[18px] m-auto" /></span>
         </button>
-      <img src={heroimage} alt="" />
+      <img src={heroimage} alt="" className='mt-5'/>
     </div>
   )
 }
