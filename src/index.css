@@ -20,3 +20,12 @@
 .img{
     object-fit:cover;
 }
+
+.sora{
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 200;
+}

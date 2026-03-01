@@ -19,7 +19,7 @@ const Navbar = () => {
     // }
   }
   return (
-    <div className="container flex items-start my-5 justify-between m-auto relative md:items-center">
+    <div className="container flex items-start my-5 justify-between m-auto mt-5 mb-5 relative md:items-center">
       <div className="flex gap-2 items-center z-30 "><span className="bg-gradient-to-r from-[#1b72e8] to-[#4831c7] JT-logo text-white md:text-black">JT</span><span className="text-white md:text-black">Solutions</span></div>
       {/* <img src={logo} alt="logo" width="128.51px" height="48px" className=" border border-red-600" /> */}
       {/* <nav className={navOpen?"flex items-center bg-indigo-800 w-[100%] h-[100vh] absolute -top-5  pt-5 left-1/2 -translate-x-1/2 flex-col md:flex-row":"flex items-center absolute  left-1/2 -translate-x-1/2 flex-col hidden md:flex-row"}> */}
