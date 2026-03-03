@@ -17,7 +17,7 @@ const AutoMoving = () => {
   { id: 7, sponsor: sponsor7 },
 ];
   return (
-    <div className='flex'>
+    <div className='flex items-center justify-around'>
         {sponsors.map((sponso)=>{
             return(
                 <img key={sponso.id} src={sponso.sponsor} alt="" />
